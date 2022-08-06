@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="src/imagens/pokeball.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    
+    <link rel="stylesheet" href="src/css/estilos.css">
+
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <title>Projeto Pokémon</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="pokebola" src="src/imagens/pokebola.png" alt="imagem da pokébola">
+        <h1 class="titulo">Meu Time Em Pokémon Fire Red</h1>
+    </header>
+    <main class="pokemon-card">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-pokemon">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Charizard</h2>
+                    <p class="status">HP 120</p>
+                    <p class="status">ATK 190</p>
+                </div>
+
+                <div class="conteiner-imagem">
+                    <img class="imagem-pokemon" src="src/imagens/charizard.png" alt="imagem do charizard">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Segundo a Pokédex, suas asas permitem que este pokémon voe a uma altitude de mais de 4.600 pés. Ele também sopra fogo com temperatura muito alta. É um Pokémon do tipo Fogo e Voador. Ele é a forma evoluída de Charmeleon quando chega no nível 36. Ele também é a forma final de Charmander.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Vileplume</h2>
+                    <p class="status">HP 100</p>
+                    <p class="status">ATK 100</p>
+                </div>
+
+                <div class="conteiner-imagem">
+                    <img class="imagem-pokemon" src="src/imagens/vileplume.png" alt="imagem do vileplume">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Tem as maiores pétalas do mundo. A cada passo, as pétalas sacodem nuvens pesadas de pólen tóxico.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Electabuzz</h2>
+                    <p class="status">HP 75</p>
+                    <p class="status">ATK 80</p>
+                </div>
+
+                <div class="conteiner-imagem">
+                    <img class="imagem-pokemon" src="src/imagens/electabuzz.png" alt="imagem do electabuzz">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Muitas usinas de energia mantêm Pokémon do tipo Ground por perto como uma defesa contra Electabuzz que vem em busca de eletricidade.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Gyarados</h2>
+                    <p class="status">HP 95</p>
+                    <p class="status">ATK 105</p>
+                </div>
+
+                <div class="conteiner-imagem">
+                    <img class="imagem-pokemon" src="src/imagens/gyarados.png" alt="imagem do gyarados">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Tem uma natureza extremamente agressiva. O Hyper Beam que dispara de sua boca incinera totalmente todos os alvos.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-5">
+                <div class="informacoes">
+                    <h2 class="nome">Primeape</h2>
+                    <p class="status">HP 97</p>
+                    <p class="status">ATK 87</p>
+                </div>
+
+                <div class="conteiner-imagem">
+                    <img class="imagem-pokemon" src="src/imagens/primeape.png" alt="imagem do primeape">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Está sempre extremamente furioso. Se ele dá início a uma perseguição, ele nunca desistirá. Só deixa de ficar com raiva quando ninguém mais está por perto. Ver este momento é muito difícil.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-6">
+                <div class="informacoes">
+                    <h2 class="nome">Alakazam</h2>
+                    <p class="status">HP 80</p>
+                    <p class="status">ATK 100</p>
+                </div>
+
+                <div class="conteiner-imagem">
+                    <img class="imagem-pokemon" src="src/imagens/alakazam.png" alt="imagem do alakazam">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Tem um nível incrivelmente alto de inteligência. Alguns dizem que Alakazam se lembra de tudo o que aconteceu com ele, desde o nascimento até a morte.</p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar">
+        </button>
+    </main>
+    
+    <script src="src/js/index.js"></script>
+</body>
+</html>
